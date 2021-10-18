@@ -18,18 +18,26 @@ O SISTEMA GERA UM ARQUIVO CSV COM OS DADOS DOS CUPONS EM UM DIRETORIO.<br>
 ## :computer: Como rodar  a aplicação:
 ### No terminal:
 ### clone o projeto:<br>
-$ git clone <https://github.com/jefferson-dantonio/fiap-ocr.git>
+```
+git clone <https://github.com/jefferson-dantonio/fiap-ocr.git>
+```
 ### Acesse a pagina do projeto:<br>
-$ cd fiap-ocr
+```
+cd fiap-ocr
+```
 ### Baixe as dependencias:<br>
+```
 $ npm i
-
+```
 ### Altera a imagem a ser analisada:<br>
+```
 $ let image = await loadImage('./cupom.jpg');
+```
 
 ### Execute a aplicação:<br>
+```
 $ npm start
-
+```
  
 ## 🛠 Tecnologias
 
