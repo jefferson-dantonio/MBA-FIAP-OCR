@@ -27,16 +27,16 @@ cd fiap-ocr
 ```
 ### Baixe as dependencias:<br>
 ```
-$ npm i
+npm i
 ```
 ### Altera a imagem a ser analisada:<br>
 ```
-$ let image = await loadImage('./cupom.jpg');
+let image = await loadImage('./cupom.jpg');
 ```
 
 ### Execute a aplicação:<br>
 ```
-$ npm start
+npm start
 ```
  
 ## 🛠 Tecnologias
